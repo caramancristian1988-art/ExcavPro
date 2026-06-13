@@ -40,7 +40,7 @@ function ServiciuCard({ serviciu, index }: { serviciu: Serviciu; index: number }
         className="group block h-full bg-[#1A1A1A] border border-[#2E2E2E] rounded-[4px] overflow-hidden hover:border-[#F5A623] hover:shadow-[0_0_24px_rgba(245,166,35,0.15)] transition-all duration-300 hover:-translate-y-1"
         aria-label={`Serviciu: ${serviciu.titlu}`}
       >
-        <div className="relative w-full aspect-square overflow-hidden">
+        <div className="relative w-full overflow-hidden" style={{ aspectRatio: '1 / 1' }}>
           <Image
             src={serviciu.imagine}
             alt={serviciu.titlu}

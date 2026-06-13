@@ -68,7 +68,7 @@ export default async function ServiciuPage({ params }: Props) {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
-              <div className="relative w-full aspect-square rounded-[4px] overflow-hidden mb-10">
+              <div className="relative w-full rounded-[4px] overflow-hidden mb-10" style={{ aspectRatio: '1 / 1' }}>
                 <Image
                   src={serviciu.imagine}
                   alt={serviciu.titlu}
