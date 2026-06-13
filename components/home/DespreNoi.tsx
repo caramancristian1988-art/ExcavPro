@@ -74,14 +74,15 @@ export default function DespreNoi() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="relative aspect-[4/3] rounded-[4px] overflow-hidden bg-[#0D0D0D] flex items-center justify-center">
+            <div className="relative aspect-[4/3] rounded-[4px] overflow-hidden">
               <Image
-                src="/logo_excavator.png"
-                alt="ExcavPro Logo"
-                width={320}
-                height={320}
-                className="object-contain p-12 drop-shadow-2xl"
+                src="/ae1aec9b-7cfb-424c-a61e-11e159fc22df.png"
+                alt="Echipa ExcavPro la lucru"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D]/60 to-transparent" />
             </div>
 
             <div className="absolute -bottom-6 -right-6 hidden md:block bg-[#F5A623] p-5 rounded-[4px] shadow-xl">
