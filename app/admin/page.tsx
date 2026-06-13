@@ -1,5 +1,5 @@
 import { prisma } from '@/lib/prisma'
-import { STATUS_LABELS, STATUS_CONFIG } from '@/app/admin/contacte/StatusSelect'
+import { STATUS_CONFIG } from '@/app/admin/contacte/StatusSelect'
 import type { StatusMesaj } from '@/app/admin/contacte/StatusSelect'
 
 export const dynamic = 'force-dynamic'
@@ -44,7 +44,7 @@ export default async function AdminPage() {
           <p className="font-display font-black text-4xl text-[#F5A623]">{total}</p>
         </div>
 
-        {(Object.keys(STATUS_LABELS) as StatusMesaj[]).map((status) => {
+        {(Object.keys(STATUS_CONFIG) as StatusMesaj[]).map((status) => {
           const cfg   = STATUS_CONFIG[status]
           const count = perStatus[status] ?? 0
           return (
