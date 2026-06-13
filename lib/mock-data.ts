@@ -18,7 +18,7 @@ export const SERVICII: Serviciu[] = [
 </ul>
 <h3>Tipuri de fundații</h3>
 <p>Lucrăm atât pentru case individuale, cât și pentru blocuri, hale industriale sau infrastructuri mari. Fiecare proiect este tratat cu atenție maximă.</p>`,
-    imagine: '/69a69f5c-b132-4d7a-98a7-60e6182ef69d.png',
+    imagine: '/d91a69bf-9c66-43b3-a492-44f267df34df.png',
     iconita: 'Building',
     metaTitle: 'Excavații Fundații | ExcavPro',
     metaDesc: 'Servicii profesionale de excavații pentru fundații. Precizie, viteză și siguranță garantate.',
@@ -42,7 +42,7 @@ export const SERVICII: Serviciu[] = [
 <li>Compactare cu compactor vibrodinamic</li>
 <li>Realizare pante și rigole</li>
 </ul>`,
-    imagine: '/23e43a1d-759f-40d4-b028-4be0b69d179e.png',
+    imagine: '/64545c39-d663-4bf5-9ea4-0457959fcbcd%20(1).png',
     iconita: 'Layers',
     metaTitle: 'Terasamente și Nivelări | ExcavPro',
     metaDesc: 'Terasamente și nivelări profesionale.',
@@ -66,7 +66,7 @@ export const SERVICII: Serviciu[] = [
 <li>Canale tehnice pentru electricitate</li>
 <li>Refacere carosabil după lucrări</li>
 </ul>`,
-    imagine: '/0bda5123-2b0d-4d04-b9a4-3062fecc8559.png',
+    imagine: '/c8e7bc17-d063-4d0b-b602-26c3a767584d.png',
     iconita: 'GitBranch',
     metaTitle: 'Săpături Canalizare | ExcavPro',
     metaDesc: 'Săpături pentru rețele de canalizare, apă, gaze și electricitate.',
@@ -90,7 +90,7 @@ export const SERVICII: Serviciu[] = [
 <li>Demolare fundații vechi</li>
 <li>Evacuare moloz și deșeuri</li>
 </ul>`,
-    imagine: '/6e6489a2-df4e-4e06-a54b-0dcedb041cab.png',
+    imagine: '/913082c6-2587-45c3-a4a5-783ee531965f.png',
     iconita: 'Hammer',
     metaTitle: 'Demolări Controlate | ExcavPro',
     metaDesc: 'Servicii de demolare profesionale.',
@@ -114,7 +114,7 @@ export const SERVICII: Serviciu[] = [
 <li>Creare alei și platforme</li>
 <li>Drenaje și sisteme de irigații</li>
 </ul>`,
-    imagine: '/af850a14-57d6-46bf-a968-d6ccbdff48a1.png',
+    imagine: '/b5d815de-837d-4df0-a264-7d2d952b1654.png',
     iconita: 'Leaf',
     metaTitle: 'Amenajări Peisagistice | ExcavPro',
     metaDesc: 'Modelare teren pentru grădini, parcuri, piscine și zone verzi.',
@@ -137,7 +137,7 @@ export const SERVICII: Serviciu[] = [
 <li>Balast, pietriș, nisip</li>
 <li>Materiale de umplutură</li>
 </ul>`,
-    imagine: '/c5d56c1a-0f66-46f8-8a98-1e5e87391fd4.png',
+    imagine: '/23ece05d-f8a7-42bd-ac6d-ec7613209dca.png',
     iconita: 'Truck',
     metaTitle: 'Transport Pământ | ExcavPro',
     metaDesc: 'Transport rapid și eficient de pământ, moloz și materiale de construcții.',
