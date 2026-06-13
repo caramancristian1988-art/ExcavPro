@@ -12,7 +12,7 @@ export default function BlogCard({ post }: { post: BlogPost }) {
         href={`/blog/${post.slug}`}
         className="group block h-full bg-[#1A1A1A] border border-[#2E2E2E] rounded-[4px] overflow-hidden hover:border-[#F5A623] hover:shadow-[0_0_24px_rgba(245,166,35,0.12)] transition-all duration-300"
       >
-        <div className="relative aspect-[16/9] overflow-hidden">
+        <div className="relative overflow-hidden" style={{ aspectRatio: '16 / 9' }}>
           <Image
             src={post.imagine}
             alt={post.titlu}

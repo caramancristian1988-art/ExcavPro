@@ -74,7 +74,7 @@ export default function DespreNoi() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="relative aspect-[4/3] rounded-[4px] overflow-hidden">
+            <div className="relative rounded-[4px] overflow-hidden" style={{ aspectRatio: '4 / 3' }}>
               <Image
                 src="/ae1aec9b-7cfb-424c-a61e-11e159fc22df.png"
                 alt="Echipa ExcavPro la lucru"
