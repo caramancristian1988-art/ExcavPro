@@ -125,7 +125,7 @@ export async function POST(req: NextRequest) {
       // Fallback: folosesc textul plain din mesaj și escaped pentru HTML
       if (!updatedText && message.text) {
         const rawText = (message.text as string)
-          .replace(/\n\n🔖 Status:.*$/s, '')
+          .replace(/\n\n🔖 Status:[^\n]*/, '')
           .trimEnd()
         updatedText = `${escapeTelegramHTML(rawText)}\n\n🔖 <b>Status:</b> ${escapeTelegramHTML(label)}`
       }

@@ -94,7 +94,7 @@ async function handle(cq) {
     return
   }
 
-  const rawText = (message.text ?? '').replace(/\n\n🔖 Status:.*$/s, '').trimEnd()
+  const rawText = (message.text ?? '').replace(/\n\n🔖 Status:[^\n]*/, '').trimEnd()
   const newText = `${escape(rawText)}\n\n🔖 <b>Status:</b> ${escape(label)}`
 
   await api('editMessageText', {
