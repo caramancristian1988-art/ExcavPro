@@ -45,6 +45,25 @@ export const metadata: Metadata = {
     title: 'ExcavPro — Excavații & Terasamente Profesionale',
     description:
       'Servicii profesionale de excavații, terasamente, demolări și lucrări de pământ.',
+    images: [
+      {
+        url: '/logo_excavator.png',
+        width: 1200,
+        height: 1200,
+        alt: 'ExcavPro — Excavații & Terasamente Profesionale',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'ExcavPro — Excavații & Terasamente Profesionale',
+    description: 'Servicii profesionale de excavații, terasamente, demolări și lucrări de pământ.',
+    images: ['/logo_excavator.png'],
+  },
+  icons: {
+    icon: '/logo_excavator.png',
+    apple: '/logo_excavator.png',
+    shortcut: '/logo_excavator.png',
   },
   robots: {
     index: true,
