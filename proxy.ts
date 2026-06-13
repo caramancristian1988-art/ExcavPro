@@ -8,7 +8,7 @@ function secret() {
   return new TextEncoder().encode(s)
 }
 
-export async function middleware(req: NextRequest) {
+export async function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl
 
   const isAdminUI  = pathname.startsWith('/admin') && pathname !== '/admin/login'
