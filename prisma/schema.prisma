@@ -1,0 +1,87 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Serviciu {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String   @unique
+  titlu        String
+  descriere    String
+  continut     String
+  imagine      String
+  iconita      String
+  metaTitle    String?
+  metaDesc     String?
+  featured     Boolean  @default(false)
+  ordine       Int      @default(0)
+  creatLa      DateTime @default(now())
+  actualizatLa DateTime @updatedAt
+}
+
+model BlogPost {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String   @unique
+  titlu        String
+  excerpt      String
+  continut     String
+  imagine      String
+  autor        String   @default("Admin")
+  categorie    String?
+  serviciu     String?
+  metaTitle    String?
+  metaDesc     String?
+  publicat     Boolean  @default(false)
+  creatLa      DateTime @default(now())
+  actualizatLa DateTime @updatedAt
+}
+
+model Recenzie {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  nume      String
+  functie   String?
+  text      String
+  rating    Int      @default(5)
+  avatarUrl String?
+  afisata   Boolean  @default(true)
+  creatLa   DateTime @default(now())
+}
+
+enum StatusMesaj {
+  ASTEPTARE
+  PROGRAMAT
+  FINALIZAT
+  PLATIT
+  ASTEPTAM_PLATA
+  EVALUARE
+}
+
+model ContactMesaj {
+  id       String      @id @default(auto()) @map("_id") @db.ObjectId
+  nume     String
+  email    String
+  telefon  String?
+  serviciu String?
+  mesaj    String
+  citit          Boolean     @default(false)
+  status         StatusMesaj @default(ASTEPTARE)
+  telegramMsgId  String?
+  creatLa        DateTime    @default(now())
+}
+
+model FAQ {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  intrebare String
+  raspuns   String
+  ordine    Int     @default(0)
+  activ     Boolean @default(true)
+}
+
+model SetareSite {
+  id      String @id @map("_id")
+  valoare String
+}

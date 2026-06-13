@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\LG CobraX Xi\\\\Desktop\\\\excavator\\\\app\\\\\" -Force -Recurse | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\LG CobraX Xi\\\\Desktop\\\\excavator\\\\\", \"\"\\) })",
+      "PowerShell(cd \"c:\\\\Users\\\\LG CobraX Xi\\\\Desktop\\\\excavator\" ; Get-ChildItem -Recurse -File | Where-Object { $_.Extension -in '.tsx','.ts','.css' -and $_.FullName -notmatch 'node_modules|.next' } | Select-Object @{N='Path';E={$_.FullName.Replace\\(\"c:\\\\Users\\\\LG CobraX Xi\\\\Desktop\\\\excavator\\\\\",\"\"\\)}} | Sort-Object Path)",
+      "Bash(npx tsc *)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\LG CobraX Xi\\\\Desktop\\\\excavator\" -Recurse -Depth 2)",
+      "Bash(Select-Object FullName)",
+      "PowerShell(head -50)",
+      "Bash(npx prisma *)",
+      "Bash(mkdir -p \"c:\\\\Users\\\\LG CobraX Xi\\\\Desktop\\\\excavator\\\\app\\\\api\\\\admin\\\\contacte\\\\[id]\\\\status\" 2>&1; echo \"done\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\LG CobraX Xi\\\\Desktop\\\\excavator\\\\app\\\\api\\\\admin\\\\contacte\\\\[id]\\\\status\")",
+      "Bash(Out-Null)",
+      "Bash(mkdir -p \"c:/Users/LG CobraX Xi/Desktop/excavator/app/api/admin/contacte/[id]/status\" && echo \"done\")",
+      "Bash(npm install *)",
+      "Bash(git --version)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\LG CobraX Xi\\Desktop\\excavator\\app\\api\\admin\\contacte\\[id]",
+      "c:\\Users\\LG CobraX Xi\\Desktop\\excavator\\app\\api\\admin\\contacte\\[id]\\status"
+    ]
+  }
+}
