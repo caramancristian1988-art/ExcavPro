@@ -158,7 +158,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>O fundație solidă începe cu excavații precise. Orice eroare în această etapă poate compromite întreaga construcție.</p>
 <h3>Etapele excavației</h3>
 <p>Procesul de excavare pentru o fundație tipică implică mai multe etape: studiu geotehnic, proiectare, săpătură propriu-zisă, sprijinire maluri și pregătire suprafață.</p>`,
-    imagine: 'https://picsum.photos/seed/blogfundatie/800/500',
+    imagine: '/c91ddcf3-ac8d-4d00-9bb9-075fae7c7055.png',
     autor: 'Ing. Alexandru Marin',
     categorie: 'Ghiduri',
     serviciu: 'excavatii-fundatii',
@@ -177,7 +177,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Realizarea unei platforme industriale este un proiect complex care necesită planificare atentă și echipamente specializate.</p>
 <h3>Studiul preliminar</h3>
 <p>Înainte de orice intervenție mecanică, este esențial un studiu geotehnic pentru a cunoaște capacitatea portantă a terenului.</p>`,
-    imagine: 'https://picsum.photos/seed/blogplatforma/800/500',
+    imagine: '/2ec5e41b-a733-4957-9aa4-6b30d14e090c.png',
     autor: 'Ing. Maria Ionescu',
     categorie: 'Proiecte',
     serviciu: 'terasamente-nivelari',
@@ -196,7 +196,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Lucrările de pozare a rețelelor subterane par simple, dar implică o serie de riscuri dacă nu sunt executate corect.</p>
 <h3>1. Adâncimea insuficientă</h3>
 <p>Una dintre cele mai comune erori este pozarea conductelor la o adâncime insuficientă, ceea ce le expune la deteriorare.</p>`,
-    imagine: 'https://picsum.photos/seed/blogcanal/800/500',
+    imagine: '/c35e99d2-ffa9-4dee-93a3-b359059e485b.png',
     autor: 'Ing. Alexandru Marin',
     categorie: 'Sfaturi',
     serviciu: 'sapaturi-canalizare-utilitati',
@@ -215,7 +215,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Demolarea unei clădiri nu înseamnă doar doborârea zidurilor. Este un proces complex care implică autorizații, planificare și securizare.</p>
 <h3>Pasul 1: Autorizații</h3>
 <p>Orice demolare necesită autorizație de demolare de la Primărie.</p>`,
-    imagine: 'https://picsum.photos/seed/blogdemolare/800/500',
+    imagine: '/54d3611d-b87d-407f-805e-018f8e1bdfe9.png',
     autor: 'Ing. Radu Constantin',
     categorie: 'Ghiduri',
     serviciu: 'demolari-controlate',
@@ -232,7 +232,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Cum să pregătești terenul pentru o grădină frumoasă: nivelare, drenaj și pregătire sol.',
     continut: `<h2>Grădina de vis începe cu terenul potrivit</h2>
 <p>O grădină frumoasă necesită mult mai mult decât plante. Fundamentul oricărei grădini reușite este pregătirea corectă a terenului.</p>`,
-    imagine: 'https://picsum.photos/seed/bloggradina/800/500',
+    imagine: '/bdf3e5b7-9887-4c60-bfc0-41ae1eef5831.png',
     autor: 'Ing. Maria Ionescu',
     categorie: 'Sfaturi',
     serviciu: 'amenajari-peisagistice',
@@ -249,7 +249,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: 'Strategii practice pentru reducerea costurilor de evacuare a pământului excedentar de pe șantier.',
     continut: `<h2>Costurile de transport — un factor major</h2>
 <p>La orice șantier de construcții, transportul pământului excavat reprezintă un cost semnificativ.</p>`,
-    imagine: 'https://picsum.photos/seed/blogtransport/800/500',
+    imagine: '/81051567-ba2d-4b5b-9c54-df360f13b679.png',
     autor: 'Ing. Radu Constantin',
     categorie: 'Sfaturi',
     serviciu: 'transport-pamant-deseuri',
