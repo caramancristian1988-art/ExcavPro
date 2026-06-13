@@ -1,4 +1,5 @@
 import { type NextRequest } from 'next/server'
+import { StatusMesaj } from '@prisma/client'
 import { prisma } from '@/lib/prisma'
 
 export const STATUS_LABELS: Record<string, string> = {
@@ -92,7 +93,7 @@ export async function POST(req: NextRequest) {
     try {
       await prisma.contactMesaj.update({
         where: { id: contactId },
-        data: { status },
+        data: { status: status as StatusMesaj },
       })
     } catch {
       console.warn('[webhook] DB update failed for contact:', contactId)
